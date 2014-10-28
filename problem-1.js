@@ -1,4 +1,4 @@
-function problemOne () {
+function execute( function problemOne () {
   console.log('Problem 1');
   for(var i = 0; i < 1000; i++) {
     var sum = 0;
@@ -8,4 +8,4 @@ function problemOne () {
     };
   };
   console.log('sum: ', sum);
-};
+}) );
