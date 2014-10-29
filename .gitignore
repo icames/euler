@@ -1,6 +1,6 @@
 .DS_Store
 *.o
 bin/*
-node-modules/*
+node_modules/*
 *.out
 ttmath*/*
