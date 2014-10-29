@@ -1,4 +1,4 @@
-#My Project Euler
+#My Project Euler Answers 
 [Project Euler](http://www.projecteuler.net)
 
 ## Problem 1
@@ -12,5 +12,3 @@ Complete!
 * ~~Using a [bignum library](https://gmplib.org/) to help solve the problem.~~ Way too complicated to get up and running. Also a C library.
 * Trying [ttmath](http://www.ttmath.org/) now!
 * Want to see if there's a more efficient way to solve the problem
-
-600 851 475 143
