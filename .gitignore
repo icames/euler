@@ -2,3 +2,5 @@
 *.o
 bin/*
 node-modules/*
+*.out
+ttmath*/*
