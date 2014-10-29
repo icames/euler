@@ -1,11 +1,12 @@
+#include "../ttmath/ttmath.h"
 #include <iostream>
 using namespace std;
 
 int main() {
-  const int NUMBER = 600851475143;
-  int factor = 0;
+  const long NUMBER = 600851475143;
+  long factor = 0;
 
-  for (int i = 2; ; i++) {
+  for (long i = 2; ; i++) {
     if(NUMBER % i == 0 && i > factor) {
       factor = i;
     }
