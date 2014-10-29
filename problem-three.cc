@@ -1,13 +1,15 @@
-#include "../ttmath/ttmath.h"
+#include "ttmath-0.9.3/ttmath/ttmath.h"
 #include <iostream>
 using namespace std;
 
-int main() {
-  const long NUMBER = 600851475143;
-  long factor = 0;
+typedef ttmath::Big<1,2> MyBig;
 
-  for (long i = 2; ; i++) {
-    if(NUMBER % i == 0 && i > factor) {
+int main() {
+  MyBig NUMBER = 600851475143;
+  MyBig factor = 0;
+
+  for (MyBig i = 2; i < 40000; i++) {
+    if(Mod(NUMBER, i) == 0 && i > factor) {
       factor = i;
     }
   }
